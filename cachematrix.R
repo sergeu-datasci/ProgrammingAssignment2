@@ -35,7 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cacheSolve(x, ...):
 ##  This function takes a cache object (which is actually a list of 'set' and
 ##  'get' functions for its elements) and returns the inverse of the cached
-##  matrix. If cached inverse value does not exist, it does calculate the
+##  matrix. If the cached inverse value does not exist, it does calculate the
 ##  invers and store it in the cache.
 
 cacheSolve <- function(x, ...) {
